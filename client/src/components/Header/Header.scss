@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 
     @include md {
         padding: 0 40px;
@@ -100,7 +101,8 @@
         position: sticky;
         top: 0;
         transform: translateY(-80px);
-        animation:stickyHeader 0.3s ease forwards;
+        animation: stickyHeader 0.3s ease forwards;
+        opacity: 0.8;
     }
 }
 

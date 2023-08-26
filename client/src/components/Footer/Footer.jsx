@@ -54,6 +54,12 @@ const Footer = () => {
           <div className="text">Menu item-1</div>
         </div>
       </div>
+      <div className="bottom-bar">
+        <div className="bottom-bar-content">
+          <div className="text">@copy; tribhuwan2023 || Electric World</div>
+          <img src={Payment} alt="payment" />
+        </div>
+      </div>
     </footer>
   );
 };
