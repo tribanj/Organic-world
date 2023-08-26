@@ -3,7 +3,7 @@
 .hero-banner {
     padding: 40px 0;
     background-image: linear-gradient(to right, #8e2de2, #4a00e0);
-
+   
     @include md {
         height: calc(100% - 80px);
 
@@ -15,7 +15,7 @@
         justify-content: flex-end;
         align-items: center;
         flex-direction: column-reverse;
-        min-width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
         margin: 0 auto;
         position: relative;
 
