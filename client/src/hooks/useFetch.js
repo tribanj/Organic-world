@@ -4,7 +4,7 @@ import { fetchDataFromApi } from "../utills/api";
 const useFetch = (endPoint) => {
   const [data, setData] = useState();
 
-  useEffect(async () => {
+  useEffect(() => {
     makeApiCall();
   }, [endPoint]);
 
@@ -13,7 +13,7 @@ const useFetch = (endPoint) => {
     setData(res);
   };
 
-  return {data};
+  return { data };
 };
 
 export default useFetch;
